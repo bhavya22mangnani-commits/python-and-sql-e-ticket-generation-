@@ -26,7 +26,7 @@ def get_connection():
         return mysql.connector.connect(
             host="localhost",
             user="root",              # Change if different
-            password="qwerty@123",  # Put your MySQL root password
+            password="",  # Put your MySQL root password
             database="airline_tickets"
         )
     except mysql.connector.Error as err:
